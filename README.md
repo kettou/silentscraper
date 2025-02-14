@@ -14,40 +14,40 @@ pip install requests beautifulsoup4 lxml random httpx time aiohttp aiofiles asyn
   * We have inlcuded a list of user-agents in the userAgents.txt file, however you can modify to your liking.
 
 
-### Key Components
+## Key Components
 
-## Proxy Management:
+### Proxy Management:
 * Uses a pool of proxies to distribute requests across multiple IP addresses.
 * Rotate proxies to prevent IP blocking & rate limiting.
 
-## User Agent Rotation:
+### User Agent Rotation:
 * Uses a list of user-agents to mimic different browsers and devices.
 * Rotate user-agents for each request to avoid detection.
 
-## Error Handling:
+### Error Handling:
 * Handles common errors like HTTP errors, CAPTCHA's, and timeouts.
 * Implement retries with exponetial backoff for failed attempts.
 
-## Request Throttling:
+### Request Throttling:
 * Adds delays between requests to mimic human behavior and avoid triggering rate limits.
 
-## CAPTCHA Solving:
+### CAPTCHA Solving:
 * Detects CAPTCHA's and utilizes a CAPTCHA solving tool or service such as 2CAPTCHA if needed.
 
-## Data Parsing:
+### Data Parsing:
 * Uses BeautifulSoup4 to parse HTML and extract relevant data
 * Handle changes in Google's HTML structure gracefully.
 
-## Pagination:
+### Pagination:
 * Navigate through multiple pages of search results by modifying query parameters (e.g. start parameter)
 
-## Data Storage:
+### Data Storage:
 * Store scraped data in a structured format selected by the user (e.g. CSV, JSON, or a database)
 
-## Logging & Monitoring:
+### Logging & Monitoring:
 * Log important events (e.g. requests, errors) for debugging and monitoring.
 
-## Ethical and Legal Compliance
+### Ethical and Legal Compliance
 * Respect Google's robots.txt file and terms of service.
 * Avoid overloading Google's servers with excessive requests.
 
