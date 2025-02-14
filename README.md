@@ -1,8 +1,9 @@
-# SilentScraper
+# [#f03c15]SilentScraper  `#f03c15`
 SilentScraper is a cutting-edge web scraping solution designed for professionals. Built with advanced steal protocols, it operates undetectably in the background, bypassing anti-scraping mechanisms to collect structured data at scale. It's lightwight architecture mimics humans browsing patterns, rotating IP addresses, spoofing user agents, and more.
 
-## Disclaimer:
+## Disclaimer
 This software is provided for educational, research, and legitimate security testing purposes only. The author(s) of this software do not condone, encourage, or support the use of this tool for any illegal, unethical or malicious activities.
+
 
 ## 1. Setup
 * Install Required Libraries
